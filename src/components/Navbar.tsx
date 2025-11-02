@@ -17,7 +17,7 @@ const nav = [
 
 export default function Navbar() {
     return (
-        <header className="px-10 py-6 border-b-1 border-slate-500 ">
+        <header className=" px-10 py-6 border-b-1 border-slate-500 ">
             <div className="flex justify-between items-center ">
                <div className="flex items-center gap-1">
                 <CiShop  className="text-2xl"/>
