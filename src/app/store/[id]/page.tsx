@@ -1,7 +1,16 @@
-import React from 'react'
+import Container from "@/components/Conteiner"
+import ProductID from './productID'
 
-export default function Product() {
+interface propmType{
+  params: Promise<{ id: string }>
+}
+
+
+export default async function Product(promps:propmType) {
+  const {id} = await promps.params
   return (
-    <div>Product</div>
+    <Container>
+      <ProductID  title={id}/>
+    </Container>
   )
 }
