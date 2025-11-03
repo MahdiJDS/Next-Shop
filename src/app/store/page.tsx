@@ -1,7 +1,15 @@
-import React from 'react'
+import GetList from '@/app/store/Server/Getlist'
+import Container from '@/components/Conteiner'
 
 export default function Store() {
+
+
+
   return (
-    <div>Store</div>
+    <div>
+      <Container >
+        <GetList />
+      </Container>
+    </div>
   )
 }
